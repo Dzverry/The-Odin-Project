@@ -1,0 +1,34 @@
+.para {
+  font-weight: 800;
+}
+
+.para {
+  font-size: x-large;
+}
+
+.small-para {
+  font-size: medium;
+  font-weight: 800;
+}
+
+.button {
+  background-color: white;
+  font-size: larger;
+}
+
+.button.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
+div.text {
+  font-weight: 100;
+  font-size: 22px;
+}
+
+div .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}

@@ -10,13 +10,13 @@
 <body>
     <nav class="navi">
          <div class="naviLeft">Daniel Georgiev's Portfolio</div>
-        <ul class="naviRight">
-            <li><a href="#header">Home</a></li>
+            <ul class="naviRight">
+            <li><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
          </ul>
     </nav>
-<div class="page-wrapper">
+<div id="home" class="page-wrapper">
     <div class="info">
         <div class="infoLeft">
             <div class="infoTitle">This website will track my progress</div>
@@ -27,13 +27,39 @@
             <img src="./images/how-to-become-a-software-developer.jpg" alt="Doesn't do anything..."/>
         </div>
     </div>
-    <div id="projects" class="projects">
-        <div class="projectsTitle">Completed projects thus far</div>
-        <div class="projectsCards">
-            <div class="card">Recipes</div>
-            <div class="card">Rock Paper Scissors</div>
-            <div class="card">Etch-a-sketch</div>
-            <div class="card">Calculator</div>
+    <div id="projects">
+        <div class="projects">
+            <div class="projectsTitle">Completed projects thus far</div>
+            <div class="projectsCards">
+                <div class="card">
+                    <a href="https://dzverry.github.io/The-Odin-Project/websites/recipes/index.html" target="_blank"><img src="./images/recipes.png"/></a>
+                    <div class="cardText">
+                        <div class="cardTitle">Recipes</div>
+                        <div class="cardDescription">Because everyone learns about &#60;ul&#62; some time</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/rockPaperScissors.png" alt="Source: Naolito.com"/>
+                    <div class="cardText">
+                        <div class="cardTitle">Rock Paper Scissors</div>
+                        <div class="cardDescription">You simply cannot win</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/Etch-a-sketch.png"/>
+                    <div class="cardText">
+                        <div class="cardTitle">Etch-a-sketch</div>
+                        <div class="cardDescription">Etch me like one of your french girls</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/calculator.png"/>
+                    <div class="cardText">
+                        <div class="cardTitle">Calculator</div>
+                        <div class="cardDescription">Nothing to see here, just a JS calculator</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="quote" class="quote">
